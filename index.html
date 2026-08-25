@@ -1,0 +1,265 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Основы вёрстки веб-страниц и разработки сайтов</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700&family=JetBrains+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Шапка -->
+      <header class="header">
+        <h1 class="header__title">
+          📄 Основы вёрстки веб-страниц и разработки сайтов
+        </h1>
+        <div class="header__description">
+          <p>
+            В современном мире веб-технологии пронизывают все сферы жизни: от
+            образования и медицины до бизнеса и развлечений. Каждая компания,
+            организация или частный специалист стремится иметь собственный сайт
+            или веб-приложение.
+          </p>
+
+          <p>
+            HTML и CSS — это основа любого сайта, а JavaScript добавляет
+            интерактивность и «жизнь» веб-страницам.
+          </p>
+
+          <p>
+            Работа над собственными сайтами (лендинг, портфолио,
+            интернет-магазин) помогает развить творческие способности,
+            дизайнерское мышление и навыки решения практических задач.
+          </p>
+        </div>
+      </header>
+
+      <!-- Табы -->
+      <div class="tabs">
+        <button class="tabs__btn tabs__btn--active" data-tab="tab-html">
+          HTML
+        </button>
+        <button class="tabs__btn" data-tab="tab-css">CSS</button>
+        <button class="tabs__btn" data-tab="tab-js">JavaScript</button>
+        <button class="tabs__btn" data-tab="tab-project">
+          Итоговый проект
+        </button>
+      </div>
+
+      <!-- РАЗДЕЛ 1: HTML -->
+      <div id="tab-html" class="tab-content tab-content--active">
+        <!-- Тема 1.1 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span>1.1 Структура HTML-документа</span>
+            </div>
+            <span class="accordion-item__badge">2 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Изучаем базовый каркас любой веб-страницы:
+              <code>&lt;!DOCTYPE html&gt;</code>, <code>&lt;html&gt;</code>,
+              <code>&lt;head&gt;</code>, <code>&lt;body&gt;</code>.
+            </p>
+
+            <div class="section-title">📚 Материалы для изучения</div>
+            <ul class="links-list">
+              <li>
+                <a href="#" class="links-list__link"
+                  >Дока — Структура HTML-документа
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >MDN Web Docs: Getting started with HTML
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >Видео: Базовая структура HTML (YouTube)
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+            </ul>
+
+            <div class="section-title">📥 Скачать материалы</div>
+            <div class="download-buttons">
+              <a href="#" class="btn-download">📦 Заготовка кода (.zip)</a>
+              <a href="#" class="btn-download">📊 Презентация (.pdf)</a>
+              <a href="#" class="btn-download">🎨 Макет в Figma</a>
+            </div>
+
+            <div class="section-title">✨ Практическое задание</div>
+            <div class="task-box">
+              <p>1. Создайте HTML-страницу с заголовком h1 и параграфом.</p>
+              <p>2. Укажите кодировку UTF-8 в <code>&lt;head&gt;</code>.</p>
+              <p>
+                3. Сохраните как <code>index.html</code> и откройте в браузере.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Тема 1.2 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span>1.2 Ссылки (a) и якоря. Пути к файлам</span>
+            </div>
+            <span class="accordion-item__badge">4 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Как работают гиперссылки, абсолютные и относительные пути, якоря
+              внутри страницы.
+            </p>
+
+            <div class="section-title">📚 Материалы для изучения</div>
+            <ul class="links-list">
+              <li>
+                <a href="#" class="links-list__link"
+                  >Дока — Тег &lt;a&gt;
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >HTML Academy: Ссылки
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >MDN: Гиперссылки
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+            </ul>
+
+            <div class="section-title">📥 Скачать материалы</div>
+            <div class="download-buttons">
+              <a href="#" class="btn-download">📦 Заготовка кода (.zip)</a>
+              <a href="#" class="btn-download">📊 Презентация (.pdf)</a>
+            </div>
+
+            <div class="section-title">✨ Практическое задание</div>
+            <div class="task-box">
+              <p>1. Создайте страницу с тремя ссылками на разные сайты.</p>
+              <p>
+                2. Добавьте ссылку-якорь внутри страницы (навигацию по
+                разделам).
+              </p>
+              <p>3. Проверьте, что относительные пути работают.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Тема 1.3 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span>1.3 Изображения (img). Форматы (jpg, png, svg, webp)</span>
+            </div>
+            <span class="accordion-item__badge">2 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Изучаем тег <code>&lt;img&gt;</code>, атрибуты <code>src</code>,
+              <code>alt</code>, <code>width</code>, <code>height</code>.
+              Разбираемся с форматами изображений.
+            </p>
+
+            <div class="section-title">📚 Материалы для изучения</div>
+            <ul class="links-list">
+              <li>
+                <a href="#" class="links-list__link"
+                  >Дока — Изображения
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >MDN: &lt;img&gt;
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+              <li>
+                <a href="#" class="links-list__link"
+                  >Что такое WebP и зачем он нужен
+                  <span class="links-list__external">↗</span></a
+                >
+              </li>
+            </ul>
+
+            <div class="section-title">✨ Практическое задание</div>
+            <div class="task-box">
+              <p>
+                1. Добавьте на страницу 3 изображения в разных форматах (jpg,
+                png, svg).
+              </p>
+              <p>
+                2. У каждого изображения должен быть осмысленный атрибут
+                <code>alt</code>.
+              </p>
+              <p>
+                3. Поэкспериментируйте с <code>width</code> и
+                <code>height</code>.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <p class="more-topics">
+          ✨ Остальные темы раздела HTML будут добавлены позже...
+        </p>
+      </div>
+
+      <!-- РАЗДЕЛ 2: CSS -->
+      <div id="tab-css" class="tab-content">
+        <p class="placeholder">
+          🎨 Раздел CSS появится позже. Будем изучать селекторы, цвета, шрифты,
+          Flexbox, Grid и адаптивную вёрстку.
+        </p>
+      </div>
+
+      <!-- РАЗДЕЛ 3: JS -->
+      <div id="tab-js" class="tab-content">
+        <p class="placeholder">
+          ⚡ Раздел JavaScript в разработке. Переменные, условия, циклы, события
+          — всё, чтобы добавить жизнь на сайт.
+        </p>
+      </div>
+
+      <!-- РАЗДЕЛ 4: Итоговый проект -->
+      <div id="tab-project" class="tab-content">
+        <p class="placeholder">
+          💡 Здесь будут материалы по итоговому проекту: выбор темы, требования,
+          примеры работ прошлых лет.
+        </p>
+      </div>
+
+      <!-- Футер -->
+      <footer class="footer">
+        <p>
+          ГБУ ЦДЮТТ Колпинского района Санкт-Петербурга • Основы вёрстки
+          веб-страниц и разработки сайтов • 2026
+        </p>
+      </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>

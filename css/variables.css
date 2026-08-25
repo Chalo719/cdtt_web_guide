@@ -1,0 +1,35 @@
+:root {
+  /* Основные цвета */
+  --bg-page: #F9FAFB;
+  --bg-card: #FFFFFF;
+  --text-primary: #111827;
+  --text-secondary: #6B7280;
+  --accent: #2563EB;
+  --accent-hover: #1D4ED8;
+  --code-color: #D14;
+  --code-bg: #F3F4F6;
+  --border: #E5E7EB;
+  --badge-bg: #E5E7EB;
+  --badge-text: #4B5563;
+
+  /* Тени */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.1);
+
+  /* Скругления */
+  --radius-md: 8px;
+  --radius-lg: 12px;
+
+  /* Отступы */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 12px;
+  --spacing-lg: 16px;
+  --spacing-xl: 20px;
+  --spacing-2xl: 24px;
+  --spacing-3xl: 32px;
+  --spacing-4xl: 48px;
+
+  /* Типографика */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', 'Courier New', monospace;
+}
