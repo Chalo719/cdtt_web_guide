@@ -255,6 +255,45 @@ code,
   margin-bottom: 0;
 }
 
+.task-box__image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: var(--spacing-md) auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+}
+
+.code-block {
+  background-color: #2D2D2D;
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+  overflow-x: auto;
+}
+
+.code-block pre {
+  margin: 0;
+}
+
+.code-block code {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: #F8F8F8;
+  background: none;
+  padding: 0;
+}
+
+.task-box ul,
+.task-box ol {
+  margin-bottom: var(--spacing-sm);
+}
+
+.task-box ul li,
+.task-box ol li {
+  margin-bottom: var(--spacing-xs);
+}
+
 /* ===== ФУТЕР ===== */
 .footer {
   margin-top: var(--spacing-4xl);
