@@ -1254,18 +1254,229 @@
                   исправьте найденные замечания.
                 </li>
               </ul>
-              <p>
-                <strong>Дополнительно:</strong> добавьте в форму сообщение об
-                ошибке, которое появляется при отправке пустого обязательного
-                поля, и свяжите его с полем через <code>aria-describedby</code>.
-              </p>
             </div>
           </div>
         </div>
 
-        <p class="more-topics">
-          ✨ Остальные темы раздела HTML будут добавлены позже...
-        </p>
+        <!-- Тема 1.7 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span
+                >1.7 Мультимедиа: видео (video), аудио (audio) и embed-коды
+                (iframe)</span
+              >
+            </div>
+            <span class="accordion-item__badge">4 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Учимся встраивать на страницу видео и аудио с помощью тегов
+              <code>&lt;video&gt;</code> и <code>&lt;audio&gt;</code>, а также
+              использовать тег <code>&lt;iframe&gt;</code> для вставки внешнего
+              контента (видео с видеохостингов, интерактивные карты).
+            </p>
+
+            <div class="section-title">📚 Материалы для изучения</div>
+            <ul class="links-list">
+              <li>
+                <a
+                  href="https://stepik.org/lesson/617660/step/1?unit=613136"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  Stepik — Мультимедиа в HTML (часть 1)
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://stepik.org/lesson/617660/step/2?unit=613136"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  Stepik — Мультимедиа в HTML (часть 2)
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://doka.guide/html/video/"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  Дока — Тег &lt;video&gt;
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://doka.guide/html/audio/"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  Дока — Тег &lt;audio&gt;
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://doka.guide/html/iframe/"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  Дока — Тег &lt;iframe&gt;
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="section-title">💻 Задания и практика</div>
+            <ul class="links-list">
+              <li>
+                <a
+                  href="https://webref.ru/practice/multimedia"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  WebReference — Сборник задач «Мультимедиа»
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://webref.ru/practice/iframe"
+                  target="_blank"
+                  class="links-list__link"
+                >
+                  WebReference — Сборник задач «Iframe»
+                  <span class="links-list__external">↗</span>
+                </a>
+              </li>
+            </ul>
+
+            <div class="section-title">✨ Практическое задание</div>
+            <div class="task-box">
+              <p>
+                <strong>Задача:</strong> создайте рекламную страницу заведения
+                на выбор (кафе, кинотеатр, спортзал, музей и т.д.). Страница
+                должна содержать информацию о заведении и обязательно включать
+                встроенное видео и карту с адресом.
+              </p>
+
+              <p><strong>Требования к странице:</strong></p>
+              <ol style="margin-left: 20px; margin-bottom: 12px">
+                <li>Создайте HTML-файл с правильной структурой.</li>
+                <li>
+                  Добавьте заголовок <code>&lt;h1&gt;</code> с названием
+                  заведения и небольшим текстом-описанием (чем занимается, что
+                  предлагает).
+                </li>
+                <li>
+                  Вставьте <strong>видео</strong> (например, рекламный ролик
+                  заведения или обзорное видео) с помощью тега
+                  <code>&lt;video&gt;</code> с атрибутами <code>controls</code>,
+                  <code>width</code>, <code>height</code> и/или добавьте
+                  <code>poster</code> (картинку-заставку). Если видео нет, можно
+                  использовать встроенное видео с видеохостинга через
+                  <code>&lt;iframe&gt;</code>.
+                </li>
+                <li>
+                  Вставьте <strong>интерактивную карту</strong> с адресом
+                  заведения с помощью тега
+                  <code>&lt;iframe&gt;</code> (используйте сервис Яндекс.Карт
+                  или Google Maps, получив embed-код).
+                </li>
+                <li>
+                  Убедитесь, что у обоих элементов (видео и карты) есть атрибуты
+                  <code>title</code> или <code>aria-label</code> для
+                  доступности.
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!-- Тема 1.8 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span>
+                1.8 Входная диагностика интересов и склонностей обучающихся в
+                сфере веб-разработки
+              </span>
+            </div>
+            <span class="accordion-item__badge">2 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Определяем интересы и склонности в сфере веб-разработки,
+              знакомимся с профессиями.
+            </p>
+
+            <div class="section-title">📥 Скачать материалы</div>
+            <div class="download-buttons">
+              <a
+                href="https://disk.yandex.ru/i/_Qvr-yRs0XStbA"
+                target="_blank"
+                class="btn-download"
+              >
+                📊 Презентация «Входная диагностика интересов и склонностей
+                обучающихся в сфере разработки ПО» (.pptx)
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Тема 1.9 -->
+        <div class="accordion-item">
+          <div class="accordion-item__header">
+            <div class="accordion-item__title">
+              <span class="accordion-item__icon">▶</span>
+              <span>1.9 Проведение ознакомительной профессиональной пробы</span>
+            </div>
+            <span class="accordion-item__badge">2 ч</span>
+          </div>
+          <div class="accordion-item__body">
+            <p>
+              Знакомимся с реальными задачами начинающего верстальщика и пробуем
+              свои силы в выполнении тестового задания: переводим макет
+              документа в семантически правильный HTML-код.
+            </p>
+
+            <div class="section-title">✨ Практическое задание</div>
+            <div class="task-box">
+              <p>
+                <strong>Задача:</strong> выполните тестовое задание для
+                начинающего верстальщика — переведите предложенный документ в
+                HTML-страницу.
+              </p>
+              <p>
+                <ul class="links-list">
+                  <li>
+                    <a
+                      href="https://www.itmathrepetitor.ru/zadachi-po-html-i-css-zadacha-14-prostoe-testovo/"
+                      target="_blank"
+                      class="links-list__link"
+                    >
+                      Условие тестового задания
+                      <span class="links-list__external">↗</span>
+                    </a>
+                  </li>
+                </ul>
+              </p>
+              <p>
+                <strong>Обратите внимание на требования:</strong> аккуратный и
+                чистый HTML-код, валидность, семантически правильные теги
+                (ссылки — это <code>&lt;a&gt;</code>, списки —
+                <code>&lt;ul&gt;</code> или <code>&lt;ol&gt;</code>), цитата для
+                выделенного текста, заголовки в соответствии с их уровнем.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <!-- РАЗДЕЛ 2: CSS -->
